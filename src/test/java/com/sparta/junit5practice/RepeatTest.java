@@ -5,7 +5,9 @@ import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.RepetitionInfo;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
+import org.springframework.boot.test.context.SpringBootTest;
 
+@SpringBootTest
 public class RepeatTest {
 
     @RepeatedTest(value = 5, name = "반복 테스트 {currentRepetition} / {totalRepetitions}")
