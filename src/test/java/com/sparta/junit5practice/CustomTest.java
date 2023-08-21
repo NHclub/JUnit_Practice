@@ -1,7 +1,9 @@
 package com.sparta.junit5practice;
 
 import org.junit.jupiter.api.*;
+import org.springframework.boot.test.context.SpringBootTest;
 
+@SpringBootTest
 public class CustomTest {
     @Test
     @DisplayName("DisplayName: 테스트의 내용을 한눈에 알아볼 수 있게 네이밍 해줄 때 사용한다.")
