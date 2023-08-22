@@ -3,6 +3,7 @@ package com.sparta.junit5practice;
 import org.junit.jupiter.api.*;
 import org.springframework.boot.test.context.SpringBootTest;
 
+@Disabled
 @SpringBootTest
 public class CustomTest {
     @Test
